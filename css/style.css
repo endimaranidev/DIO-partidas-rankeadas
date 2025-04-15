@@ -1,0 +1,109 @@
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    gap: 1rem;
+    background-color: #000;
+    color: #F4F4F4;
+    font-family: var(--font-family)
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4ADE80;
+}
+
+.hero-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 15%;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero-data > input {
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #333;
+    background-color: #2a2a2a;
+    color: #F4F4F4;
+}
+
+.hero-data > input::placeholder {
+    color: #aaa;
+}
+
+.hero-data > button {
+    width: 70%;
+    padding: 8px;
+    background-color: #4ADE80;
+    color: #121212;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-data > button:hover {
+    background-color: #169444;
+}
+
+.hero-classification {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+}
+
+#hero-img {
+    width: 10%;
+}
+
+.alert {
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.iron {
+    color: #B7410E;
+
+}
+
+.bronze {
+    color: #CD7F32;
+}
+
+.silver {
+    color: #C0C0C0;
+}
+
+.gold {
+    color: gold;
+}
+
+.platinum {
+    color: #7f7679;
+}
+
+.ascending {
+    color: #ff8c00;
+}
+
+.imortal {
+    color: #8e44ad;
+}
+
+.radiant {
+    color: 	#ffd700;
+}
